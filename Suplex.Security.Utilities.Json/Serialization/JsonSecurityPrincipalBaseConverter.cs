@@ -3,7 +3,7 @@ using Newtonsoft.Json.Linq;
 using Suplex.Security.Principal;
 using System;
 
-namespace Suplex.Security.Utilities.Json.Serialization
+namespace Suplex.Utilities.Serialization
 {
     public class JsonSecurityPrincipalBaseConverter: JsonConverter
     {
