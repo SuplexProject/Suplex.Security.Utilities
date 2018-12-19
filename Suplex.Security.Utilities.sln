@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{1331
 		scripts\AssemblyInfo.xml = scripts\AssemblyInfo.xml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suplex.Security.Utilities.ActiveDirectory", "Suplex.Security.Utilities.ActiveDirectory\Suplex.Security.Utilities.ActiveDirectory.csproj", "{4F5D4C5F-B286-4495-B6CE-A5FC7825DBA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{FBC74CF4-50B5-41B0-A215-BCB7EE6D8AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBC74CF4-50B5-41B0-A215-BCB7EE6D8AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBC74CF4-50B5-41B0-A215-BCB7EE6D8AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F5D4C5F-B286-4495-B6CE-A5FC7825DBA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5D4C5F-B286-4495-B6CE-A5FC7825DBA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5D4C5F-B286-4495-B6CE-A5FC7825DBA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5D4C5F-B286-4495-B6CE-A5FC7825DBA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

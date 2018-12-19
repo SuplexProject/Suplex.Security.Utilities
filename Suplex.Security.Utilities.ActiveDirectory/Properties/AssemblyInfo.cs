@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle( "Suplex.Security.Utilities.Json" )]
+[assembly: AssemblyTitle( "Suplex.Security.Utilities.ActiveDirectory" )]
 [assembly: AssemblyDescription( "" )]
 [assembly: AssemblyConfiguration( "" )]
 [assembly: AssemblyCompany( "" )]
-[assembly: AssemblyProduct( "Suplex.Security.Utilities.Json" )]
+[assembly: AssemblyProduct( "Suplex.Security.Utilities.ActiveDirectory" )]
 [assembly: AssemblyCopyright( "Copyright © Steve Shortt 2000 - 2019" )]
 [assembly: AssemblyTrademark( "" )]
 [assembly: AssemblyCulture( "" )]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible( false )]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid( "496424a2-7dfa-4dcd-9cb9-84c224606f2c" )]
+[assembly: Guid( "4f5d4c5f-b286-4495-b6ce-a5fc7825dba6" )]
 
 // Version information for an assembly consists of the following four values:
 //
