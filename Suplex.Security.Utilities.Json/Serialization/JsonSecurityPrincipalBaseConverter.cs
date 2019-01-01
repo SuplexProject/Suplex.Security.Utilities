@@ -1,16 +1,19 @@
-﻿using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
+﻿using System;
+
 using Suplex.Security.Principal;
-using System;
+
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace Suplex.Utilities.Serialization
 {
-    public class JsonSecurityPrincipalBaseConverter: JsonConverter
+    public class JsonSecurityPrincipalBaseConverter : JsonConverter
     {
         public override bool CanConvert(Type objectType)
         {
             return (objectType == typeof( SecurityPrincipalBase ));
         }
+
         public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
         {
             //https://stackoverflow.com/questions/34185295/handling-null-objects-in-custom-jsonconverters-readjson-method
@@ -33,10 +36,12 @@ namespace Suplex.Utilities.Serialization
             //serializer.Populate(jo.CreateReader(), target);
             //return target;
         }
+
         public override bool CanWrite
         {
             get { return false; }
         }
+
         public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
         {
             throw new NotImplementedException();
