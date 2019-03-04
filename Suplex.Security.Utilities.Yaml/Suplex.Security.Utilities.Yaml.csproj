@@ -23,7 +23,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Suplex.Security.Core" Version="1.0.18355" />
+    <PackageReference Include="Suplex.Security.Core" Version="1.0.19063" />
     <PackageReference Include="YamlDotNet.Signed" Version="5.2.1" />
   </ItemGroup>
 
