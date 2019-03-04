@@ -17,6 +17,7 @@
     <PackageTags>Security ACLs RBAC Roles</PackageTags>
     <PackageReleaseNotes>1.0 Release.  All features are presently working and passing unit tests.
 
+- 19063: Updates to YamlHelpers and added YamlAceConverterConverter
 - 18296: Initial release, includes YamlAceConverter
 - 19001: Includes netstandard20 in distribution</PackageReleaseNotes>
   </PropertyGroup>
