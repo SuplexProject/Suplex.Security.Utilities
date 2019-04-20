@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.19064.0</FileVersion>
-    <Version>1.0.19064.0</Version>
+    <FileVersion>1.0.19109.0</FileVersion>
+    <Version>1.0.19109.0</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Steve Shortt</Authors>
     <Copyright>Steve Shortt, 2016 - 2019</Copyright>
@@ -17,6 +17,7 @@
     <PackageTags>Security ACLs RBAC Roles</PackageTags>
     <PackageReleaseNotes>1.0 Release.  All features are presently working and passing unit tests.
 
+- 19109: Updated nuget ref Suplex.Security.Core 1.0.19075
 - 19064: added JsonAceConverterConverter
 - 19001: Includes netstandard20 in distribution
 - 18296: Initial release, includes JsonAceConverter
@@ -27,7 +28,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Suplex.Security.Core" Version="1.0.19063" />
+    <PackageReference Include="Suplex.Security.Core" Version="1.0.19075" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
   </ItemGroup>
 
